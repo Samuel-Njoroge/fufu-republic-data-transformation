@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RAW
+    schema: PUBLIC
+    tables:
+      - name: branches
+      - name: customers
+      - name: inventory
+      - name: menu_items
+      - name: order_items
+      - name: orders
+      - name: payment_methods
