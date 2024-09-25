@@ -3,10 +3,10 @@ snowflake:
   outputs:
     dev:
       type: snowflake
-      account: allyayc-mda43570
-      user: SAMNJOROGE
-      password: Sn-38241394
-      role: ACCOUNTADMIN
+      account: <account-name>
+      user: <user-name>
+      password: <password>
+      role: <role>
       database: RAW
       warehouse: FUFU_REPUBLIC
       schema: PUBLIC
