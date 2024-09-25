@@ -1,6 +1,6 @@
-select
+SELECT
     branch_id,
-    name,
-    location,
+    name AS branch_name,
+    location AS branch_location,
     type
-from {{ ref('src_branches') }}
+FROM {{ ref('src_branches') }}
